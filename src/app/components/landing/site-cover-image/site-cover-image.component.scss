@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto+Condensed:wght@300&family=Space+Mono&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(263.19deg, rgba(36, 33, 69, 0.3) 44.67%,
+    rgba(218, 30, 116, 0.3) 91.01%),
+    linear-gradient(106.52deg, #242145 54.69%, #DA1E74 100%);
+}
+
+.firstBlock__button{
+    color: #fff;
+    font-family: "Poppins";
+}
+
+.header {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: row;
+}
+
+.content {
+    background-color: black;
+    width: 100%;
+    height: 0%;
+}
+
+.firstBlock__button {
+    border-radius: 13px;
+    color: #ffffff;
+    font-family: "Inter";
+    font-size: 125%;
+    font-weight: 600;
+  
+    cursor: pointer;
+  }
+  
+  .firstBlock__image {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .firstBlock__button__login {
+    background: transparent;
+    border: 3px solid #6058be;
+  }
+
+  .firstBlock__button__signup {
+    background: #E4005C;
+    border: transparent;
+  } 
+
+  .firstBlock__button__login:hover {
+    border: 3px solid #e4005c;
+  }
+  
+  .firstBlock__button__signup:hover {
+    background: #c00046;
+  }
+
+  .firstBlock__text_slogan {
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #ffffff;
+  }
+
+  .firstBlock__text_lorem {
+    font-family: "Inter";
+    font-style: normal;
+    color: #ffffff;
+  }
+
+  .firstBlock__button__freetrial {
+    background: #E4005C;
+    border: transparent;
+  }
+  
+  
+  .firstBlock__button__freetrial:hover {
+    background: #c00046;
+  }
+
+
+  
+  
+  
+  
+
+@media screen and (min-width: 769px) and (max-width: 1025px) {
+
+    .firstBlock__logo{
+        width: 97px;
+        height: 100px;
+        margin-left: 45px;
+    }
+
+    .firstBlock__button {
+        height: 40px;
+        width: 130px;
+        margin-top: 30px;
+    }
+
+    .buttons {
+        margin-left: 550px;
+    }
+
+    .firstBlock__button__login {
+        margin-right: 10px;
+    }
+
+    .firstBlock__image {
+        height: 600px;
+        width: 600px;
+        margin-left: 500px;
+    }
+
+    .firstBlock__text_slogan {
+        width: 700px;
+        height: 200px;
+        margin-left: 45px;
+        margin-top: 90px;
+      
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 80px;
+      }
+
+      .firstBlock__text_lorem {
+        width: 500px;
+        height: 200px;
+        margin-left: 45px;
+        margin-top: -50px;
+      
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 36px;
+      }
+
+      .firstBlock__button__freetrial {
+        width: 150px;
+        margin-top: -40px;
+        margin-left: 45px;
+      
+      }
+
+
+}
+
+@media screen and (min-width: 1026px) and (max-width: 1280px){
+    
+    .firstBlock__logo{
+        width: 150px;
+        height: 150px;
+        margin-left: 80px;
+    }
+
+    .firstBlock__button {
+        height: 50px;
+        width: 170px;
+        margin-top: 40px;
+    }
+
+    .buttons {
+        margin-left: 600px;
+    }
+
+    .firstBlock__button__login {
+        margin-right: 20px;
+    }
+
+    .firstBlock__image {
+        height: 700px;
+        width: 700px;
+        margin-left: 670px;
+    }
+
+    .firstBlock__text_slogan {
+        width: 700px;
+        height: 300px;
+        margin-left: 80px;
+        margin-top: 70px;
+      
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 120px;
+      }
+
+      .firstBlock__text_lorem {
+        width: 500px;
+        height: 200px;
+        margin-left: 80px;
+        margin-top: -70px;
+      
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 36px;
+      }
+
+      .firstBlock__button__freetrial {
+        margin-top: -30px;
+        margin-left: 80px;
+      
+      }
+
+
+}
+
+
+@media screen and (min-width: 1281px) and (max-width: 1599px){
+    .firstBlock__logo{
+        width: 150px;
+        height: 150px;
+        margin-left: 80px;
+    }
+
+    .firstBlock__button {
+        height: 50px;
+        width: 170px;
+        margin-top: 40px;
+    }
+
+    .buttons {
+        margin-left: 700px;
+    }
+
+    .firstBlock__button__login {
+        margin-right: 20px;
+    }
+
+    .firstBlock__image {
+        height: 700px;
+        width: 700px;
+        margin-left: 670px;
+    }
+
+    .firstBlock__text_slogan {
+        width: 700px;
+        height: 300px;
+        margin-left: 80px;
+        margin-top: 70px;
+      
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 120px;
+      }
+
+      .firstBlock__text_lorem {
+        width: 500px;
+        height: 200px;
+        margin-left: 80px;
+        margin-top: -70px;
+      
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 36px;
+      }
+
+      .firstBlock__button__freetrial {
+        margin-top: -30px;
+        margin-left: 80px;
+      
+      }
+
+}
+
+@media screen and (min-width: 1600px){
+    .firstBlock__logo{
+        width: 150px;
+        height: 150px;
+        margin-left: 80px;
+    }
+
+    .firstBlock__button {
+        height: 50px;
+        width: 190px;
+        margin-top: 40px;
+    }
+
+    .buttons {
+        margin-left: 800px;
+    }
+
+    .firstBlock__button__login {
+        margin-right: 20px;
+    }
+
+    .firstBlock__image {
+        height: 750px;
+        width: 750px;
+        margin-left: 800px;
+    }
+
+    .firstBlock__text_slogan {
+        width: 700px;
+        height: 300px;
+        margin-left: 80px;
+        margin-top: 70px;
+      
+        font-weight: 700;
+        font-size: 65px;
+        line-height: 120px;
+      }
+
+      .firstBlock__text_lorem {
+        width: 500px;
+        height: 200px;
+        margin-left: 80px;
+        margin-top: -70px;
+      
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 36px;
+      }
+
+      .firstBlock__button__freetrial {
+        margin-top: -30px;
+        margin-left: 80px;
+      
+      }
+
+}
+
