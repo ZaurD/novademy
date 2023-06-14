@@ -18,6 +18,7 @@ import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 import { environment } from '../environments/environment';
 import { provideAuth,getAuth } from '@angular/fire/auth';
 import { HotToastModule } from '@ngneat/hot-toast';
+import { SiteCoverImageComponent } from './components/landing/site-cover-image/site-cover-image.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { HotToastModule } from '@ngneat/hot-toast';
     LandingComponent,
     HomeComponent,
     LoginComponent,
-    SignUpComponent
+    SignUpComponent,
+    SiteCoverImageComponent
   ],
   imports: [
     BrowserModule,
