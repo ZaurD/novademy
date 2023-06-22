@@ -19,6 +19,7 @@ import { environment } from '../environments/environment';
 import { provideAuth,getAuth } from '@angular/fire/auth';
 import { HotToastModule } from '@ngneat/hot-toast';
 import { SiteCoverImageComponent } from './components/landing/site-cover-image/site-cover-image.component';
+import { GroupsComponent } from './components/landing/groups/groups.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { SiteCoverImageComponent } from './components/landing/site-cover-image/s
     HomeComponent,
     LoginComponent,
     SignUpComponent,
-    SiteCoverImageComponent
+    SiteCoverImageComponent,
+    GroupsComponent
   ],
   imports: [
     BrowserModule,
