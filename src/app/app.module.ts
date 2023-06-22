@@ -20,6 +20,7 @@ import { provideAuth,getAuth } from '@angular/fire/auth';
 import { HotToastModule } from '@ngneat/hot-toast';
 import { SiteCoverImageComponent } from './components/landing/site-cover-image/site-cover-image.component';
 import { GroupsComponent } from './components/landing/groups/groups.component';
+import { WhyNovademyComponent } from './components/landing/why-novademy/why-novademy.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { GroupsComponent } from './components/landing/groups/groups.component';
     LoginComponent,
     SignUpComponent,
     SiteCoverImageComponent,
-    GroupsComponent
+    GroupsComponent,
+    WhyNovademyComponent
   ],
   imports: [
     BrowserModule,
