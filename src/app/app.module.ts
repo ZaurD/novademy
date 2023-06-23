@@ -21,6 +21,7 @@ import { HotToastModule } from '@ngneat/hot-toast';
 import { SiteCoverImageComponent } from './components/landing/site-cover-image/site-cover-image.component';
 import { GroupsComponent } from './components/landing/groups/groups.component';
 import { WhyNovademyComponent } from './components/landing/why-novademy/why-novademy.component';
+import { PricesComponent } from './components/landing/prices/prices.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { WhyNovademyComponent } from './components/landing/why-novademy/why-nova
     SignUpComponent,
     SiteCoverImageComponent,
     GroupsComponent,
-    WhyNovademyComponent
+    WhyNovademyComponent,
+    PricesComponent
   ],
   imports: [
     BrowserModule,
