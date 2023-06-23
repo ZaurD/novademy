@@ -1,0 +1,352 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto+Condensed:wght@300&family=Space+Mono&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blocks {
+    display: flex;
+    flex-direction: row;
+}
+
+.title {
+    font-family: "Poppins";
+}
+
+.block {
+    background: #FFFFFF;
+    box-shadow: 0px 12px 64px #CCCCCC;
+    border-radius: 16px;
+    align-items: center;
+  }
+
+  .price {
+    font-weight: bold;
+    font-family: "Poppins";
+  }
+
+  .packet_name {
+    color: #ADADAD;
+    font-family: "Poppins";
+    font-weight: 600;
+  }
+
+  .block_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .savings {
+    border-radius: 10px;
+    background-color: #E4005C;
+    color: #FFFFFF;
+    font-family: "Poppins";
+  }
+
+  .price_button {
+    color: #FFFFFF;
+    background-color: #E4005C;
+    border: transparent;
+    font-family: "Inter";
+    border-radius: 7px;
+    white-space: nowrap;
+    font-size: 10px;
+    font-weight: 600;
+  }
+
+  .block_list {
+    font-family: "Poppins";
+  }
+
+
+
+@media screen and (min-width: 769px) and (max-width: 1025px) {
+
+    .main {
+        gap: 50px;
+    }
+
+
+    .title {
+        font-size: 30px;
+    }
+
+    .blocks {
+        gap: 50px;
+    }
+
+    .block {
+        width: 220px;
+        height: 420px;
+    }
+
+    .price {
+        font-size: 25px;
+    }
+
+    .block_content {
+        margin-top: 30px;
+    }
+
+    .savings {
+        width: 50px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 10px;
+    }
+
+
+    .price_button {
+        margin-top: 30px;
+        width: 100px;
+        height: 30px;
+    }
+
+    .block_list {
+        margin-top: 50px;
+    }
+
+    .button1 {
+        margin-top: 80px;
+    }
+
+    .button2 {
+        margin-top: 20px;
+    }
+
+    .button3 {
+        margin-top: 80px;
+    }
+
+    li {
+        margin-bottom: 10px;
+    }
+
+
+}
+
+@media screen and (min-width: 1026px) and (max-width: 1280px) {
+    .main {
+        gap: 70px;
+    }
+
+
+    .title {
+        font-size: 40px;
+    }
+
+    .blocks {
+        gap: 60px;
+    }
+
+    .block {
+        width: 250px;
+        height: 450px;
+    }
+
+    .price {
+        font-size: 30px;
+    }
+
+    .block_content {
+        margin-top: 35px;
+    }
+
+    .savings {
+        width: 55px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+    .price_button {
+        margin-top: 30px;
+        width: 130px;
+        height: 40px;
+        font-size: 15px;
+        font-weight: 550;
+    }
+
+    .block_list {
+        margin-top: 60px;
+        font-size: 17px;
+    }
+
+    .button1 {
+        margin-top: 100px;
+    }
+
+    .button2 {
+        margin-top: 40px;
+    }
+
+    .button3 {
+        margin-top: 90px;
+    }
+
+    .packet_name {
+        font-size: 17px;
+    }
+
+    li {
+        margin-bottom: 10px;
+    }
+
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1599px) {
+
+    .main {
+        gap: 80px;
+        margin-top: 20px;
+    }
+
+
+    .title {
+        font-size: 40px;
+    }
+
+    .blocks {
+        gap: 60px;
+    }
+
+    .block {
+        width: 280px;
+        height: 550px;
+    }
+
+    .price {
+        font-size: 35px;
+    }
+
+    .block_content {
+        margin-top: 35px;
+    }
+
+    .savings {
+        width: 55px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+
+    .price_button {
+        margin-top: 30px;
+        width: 130px;
+        height: 40px;
+        font-size: 15px;
+        font-weight: 550;
+    }
+
+    .block_list {
+        margin-top: 60px;
+        font-size: 17px;
+    }
+
+    .button1 {
+        margin-top: 160px;
+    }
+
+    .button2 {
+        margin-top: 90px;
+    }
+
+    .button3 {
+        margin-top: 160px;
+    }
+
+    .packet_name {
+        font-size: 17px;
+    }
+
+    li {
+        margin-bottom: 20px;
+    }
+
+
+}
+@media screen and (min-width: 1600px) {
+
+    .main {
+        gap: 90px;
+        margin-top: 80px;
+    }
+
+
+    .title {
+        font-size: 50px;
+    }
+
+    .blocks {
+        gap: 60px;
+    }
+
+    .block {
+        width: 280px;
+        height: 500px;
+    }
+
+    .price {
+        font-size: 35px;
+    }
+
+    .block_content {
+        margin-top: 40px;
+    }
+
+    .savings {
+        width: 55px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+
+    .price_button {
+        margin-top: 30px;
+        width: 130px;
+        height: 40px;
+        font-size: 15px;
+        font-weight: 550;
+    }
+
+    .block_list {
+        margin-top: 60px;
+        font-size: 17px;
+    }
+
+    .button1 {
+        margin-top: 100px;
+    }
+
+    .button2 {
+        margin-top: 30px;
+    }
+
+    .button3 {
+        margin-top: 110px;
+    }
+
+    .packet_name {
+        font-size: 17px;
+    }
+
+    li {
+        margin-bottom: 20px;
+    }
+
+}
