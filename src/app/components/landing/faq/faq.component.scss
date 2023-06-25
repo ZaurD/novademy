@@ -37,7 +37,6 @@
 
 .question {
     font-family: "Poppins";
-    cursor: pointer;
 }
 
 
@@ -51,6 +50,20 @@ hr {
     background-color: #706F6F;
 }
 
+.questionIcon {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon {
+    color: #FFFFFF;
+    display: flex;
+    border-radius: 50%;
+    background-color: #E4005C;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
 
 @media screen and (min-width: 769px) and (max-width: 1025px) {
 
@@ -83,6 +96,12 @@ hr {
 
     hr {
         width: 800px;
+    }
+
+    .icon {
+        height: 20px;
+        width: 20px;
+        margin-left: 10px;
     }
 
 
@@ -122,6 +141,12 @@ hr {
         width: 900px;
     }
 
+    .icon {
+        height: 25px;
+        width: 25px;
+        margin-left: 10px;
+    }
+
 
 }
 
@@ -158,6 +183,12 @@ hr {
         width: 1000px;
     }
 
+    .icon {
+        height: 25px;
+        width: 25px;
+        margin-left: 10px;
+    }
+
 }
 
 @media screen and (min-width: 1600px) {
@@ -191,5 +222,11 @@ hr {
 
     hr {
         width: 1000px;
+    }
+
+    .icon {
+        height: 30px;
+        width: 30px;
+        margin-left: 10px;
     }
 }

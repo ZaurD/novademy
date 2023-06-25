@@ -1,377 +1,303 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto+Condensed:wght@300&family=Space+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto+Condensed:wght@300&family=Space+Mono&display=swap");
 
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .main {
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(263.19deg, rgba(36, 33, 69, 0.3) 44.67%,
-    rgba(218, 30, 116, 0.3) 91.01%),
-    linear-gradient(106.52deg, #242145 54.69%, #DA1E74 100%);
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(248deg, rgba(65, 13, 167, 0.30) 1.78%,
+   rgba(218, 30, 116, 0.30) 99.00%), linear-gradient(135deg, #390A96 31.25%, #DA1E74 88.02%);
 }
-
 
 .header {
-    width: 100%;
-    height: 20%;
-    display: flex;
-    align-items: row;
-}
-
-.content {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 80%;
+  display: flex;
+  flex-direction: row;
 }
 
 .header__button {
-    border-radius: 13px;
-    color: #ffffff;
-    font-family: "Inter";
-    font-size: 125%;
-    font-weight: 600;
-  
-    cursor: pointer;
-  }
-  
-  .content__image_image {
-    position: absolute;
-    bottom: 0;
-  }
+  color: #ffffff;
+  font-family: "Poppins";
+  cursor: pointer;
+}
 
-  .header__button__login {
-    background: transparent;
-    border: 3px solid #6058be;
-  }
+.header__button__login {
+  background: transparent;
+  border: 2px solid #6058be;
+}
 
-  .header__button__signup {
-    background: #E4005C;
-    border: transparent;
-  } 
+.header__button__signup {
+  background: #E4005C;
+  border: transparent;
+} 
 
-  .header__button__login:hover {
-    border: 3px solid #e4005c;
-  }
-  
-  .header__button__signup:hover {
-    background: #c00046;
-  }
+.header__button__login:hover {
+  border: 3px solid #e4005c;
+}
 
-  .content__text_slogan {
-    font-family: 'Poppins';
-    font-style: normal;
-    color: #ffffff;
-  }
+.header__button__signup:hover {
+  background: #c00046;
+}
 
-  .content__text_subtitle {
-    font-family: "Inter";
-    font-style: normal;
-    color: #ffffff;
-  }
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
 
-  .content__button__freetrial {
-    background: #E4005C;
-    border: transparent;
-  }
-  
-  
-  .content__button__freetrial:hover {
-    background: #c00046;
-  }
+.content {
+  display: flex;
+  flex-direction: row;
+}
 
-  .content__text {
-    display: flex;
-    flex-direction: column;
-    height: 50%;
-    gap: 20px;
-  }
+.content_text {
+  display: flex;
+  flex-direction: column;
+}
 
-  .buttons {
-    display: flex;
-    flex-direction: row;
-  }
+.slogan {
+  font-family: "Poppins";
+  color: #FFFFFF;
+}
 
-  
-  
-  
-  
+.content_button {
+  color: #FFF;
+  font-family: "Inter";
+  font-weight: 700;
+  background-color: #E4005D;
+  border: transparent;
+  cursor: pointer;
+}
+
+.content_image {
+  display: flex;
+  // position: absolute;
+  // bottom: 0;
+}
+
+.content_button:hover {
+  background: #c00046;
+}
+
 
 @media screen and (min-width: 769px) and (max-width: 1025px) {
 
-    .header__logo{
-        width: 97px;
-        height: 100px;
-        margin-left: 45px;
-    }
-
-    .header__button {
-        height: 40px;
-        width: 130px;
-        margin-top: 30px;
-    }
-
-    .buttons {
-        margin-left: 530px;
-    }
-
-    .header__button__login {
-        margin-right: 10px;
-    }
-
-    .content__image_image {
-        height: 500px;
-        width: 360px;
-    }
-
-    .content__text_slogan {
-        width: 600px;
-        height: 200px;
-        margin-top: 90px;
-      
-        font-weight: 600;
-        font-size: 50px;
-        line-height: 80px;
-      }
-
-      .content__text_subtitle {
-        width: 500px;
-        height: 200px;
-      
-        font-weight: 400;
-        font-size: 17px;
-        line-height: 36px;
-      }
 
 
-      .content__text {
-        margin-left: 45px;
-      }
+  .header {
+    gap: 45%;
+    margin-top: 50px;
+  }
 
-      .content__button__freetrial {
-        width: 200px;
-        min-height: 50px;
-        border-radius: 13px;
-        color: #ffffff;
-        font-family: "Inter";
-        font-size: 125%;
-        font-weight: 600;
-      
-        cursor: pointer;
-      }
+  .logo {
+    width: 150px;
+    height: 30px;
+    margin-left: 50px;
+  }
 
+  .header__button {
+    width: 120px;
+    height: 30px;
+    border-radius: 8px;
+  }
+
+  .buttons {
+    gap: 20px;
+  }
+
+  .main {
+    gap: 30%;
+  }
+
+  .slogan {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 80px;
+    width: 700px;
+    height: 100px;
+  }
+
+  .content_button {
+    font-size: 16px;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+  }
+
+  .content_text {
+    gap: 80px;
+    margin-left: 50px;
+  }
+
+  .content_image {
+    height: 500px;
+    width: 360px;
+  }
 
 
 }
 
-@media screen and (min-width: 1026px) and (max-width: 1280px){
-    
-    .header__logo{
-        width: 150px;
-        height: 150px;
-        margin-left: 80px;
-    }
+@media screen and (min-width: 1026px) and (max-width: 1280px) {
+  .header {
+    gap: 50%;
+    margin-top: 50px;
+  }
 
-    .header__button {
-        height: 50px;
-        width: 170px;
-        margin-top: 40px;
-    }
+  .logo {
+    width: 150px;
+    height: 30px;
+    margin-left: 50px;
+  }
 
-    .buttons {
-        margin-left: 590px;
-    }
+  .header__button {
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 15px;
+  }
 
-    .header__button__login {
-        margin-right: 20px;
-    }
+  .buttons {
+    gap: 20px;
+  }
 
-    .content__image_image {
-        height: 600px;
-        width: 430px;
-    }
+  .main {
+    gap: 30%;
+  }
 
-    .content__text_slogan {
-        width: 700px;
-        height: 300px;
-        margin-top: 70px;
-      
-        font-weight: 600;
-        font-size: 60px;
-        line-height: 120px;
-      }
+  .slogan {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 80px;
+    width: 700px;
+    height: 100px;
+  }
 
-      .content__text_subtitle {
-        width: 500px;
-        height: 200px;
-      
-        font-weight: 400;
-        font-size: 17px;
-        line-height: 36px;
-      }
+  .content_button {
+    font-size: 16px;
+    height: 50px;
+    width: 170px;
+    border-radius: 10px;
+  }
 
+  .content_text {
+    gap: 80px;
+    margin-left: 50px;
+  }
 
-      .content__text {
-        margin-left: 80px;
-      }
-
-      .content__button__freetrial {
-        width: 200px;
-        min-height: 50px;
-        border-radius: 13px;
-        color: #ffffff;
-        font-family: "Inter";
-        font-size: 125%;
-        font-weight: 600;
-      
-        cursor: pointer;
-      }
-
-
-
-      
-
-
+  .content_image {
+    height: 500px;
+    width: 360px;
+  }
 }
 
+@media screen and (min-width: 1281px) and (max-width: 1599px) {
+  .header {
+    gap: 55%;
+    margin-top: 50px;
+  }
 
-@media screen and (min-width: 1281px) and (max-width: 1599px){
+  .logo {
+    width: 150px;
+    height: 30px;
+    margin-left: 50px;
+  }
 
-    .header__logo{
-        width: 150px;
-        height: 150px;
-        margin-left: 80px;
-    }
+  .header__button {
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 15px;
+  }
 
-    .header__button {
-        height: 50px;
-        width: 170px;
-        margin-top: 40px;
-    }
+  .buttons {
+    gap: 20px;
+  }
 
-    .buttons {
-        margin-left: 660px;
-    }
+  .main {
+    gap: 25%;
+  }
 
-    .header__button__login {
-        margin-right: 20px;
-    }
+  .slogan {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 80px;
+    width: 700px;
+    height: 100px;
+  }
 
-    .content__image_image {
-        height: 600px;
-        width: 490px;
-    }
+  .content_button {
+    font-size: 16px;
+    height: 50px;
+    width: 170px;
+    border-radius: 10px;
+  }
 
-    .content__text_slogan {
-        width: 700px;
-        height: 300px;
-        margin-top: 70px;
-      
-        font-weight: 600;
-        font-size: 60px;
-        line-height: 120px;
-      }
+  .content_text {
+    gap: 80px;
+    margin-left: 50px;
+  }
 
-      .content__text_subtitle {
-        width: 500px;
-        height: 200px;
-      
-        font-weight: 400;
-        font-size: 17px;
-        line-height: 36px;
-      }
-
-
-      .content__text {
-        margin-left: 80px;
-      }
-
-      .content__button__freetrial {
-        width: 200px;
-        min-height: 50px;
-        border-radius: 13px;
-        color: #ffffff;
-        font-family: "Inter";
-        font-size: 125%;
-        font-weight: 600;
-      
-        cursor: pointer;
-      }
-
-
-
-
+  .content_image {
+    height: 500px;
+    width: 360px;
+  }
 }
 
-@media screen and (min-width: 1600px){
-    .header__logo{
-        width: 150px;
-        height: 150px;
-        margin-left: 100px;
-    }
+@media screen and (min-width: 1600px) {
+  .header {
+    gap: 55%;
+    margin-top: 50px;
+  }
 
-    .header__button {
-        height: 50px;
-        width: 190px;
-        margin-top: 40px;
-    }
+  .logo {
+    width: 150px;
+    height: 30px;
+    margin-left: 50px;
+  }
 
-    .buttons {
-        margin-left: 800px;
-    }
+  .header__button {
+    width: 180px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 15px;
+  }
 
-    .header__button__login {
-        margin-right: 20px;
-    }
+  .buttons {
+    gap: 20px;
+  }
 
-    .content__image_image {
-        height: 700px;
-        width: 600px;
-        margin-left: 100px;
-    }
+  .main {
+    gap: 30%;
+  }
 
-    .content__text_slogan {
-        width: 700px;
-        height: 300px;
-        margin-top: 70px;
-      
-        font-weight: 700;
-        font-size: 65px;
-        line-height: 120px;
-      }
+  .slogan {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 80px;
+    width: 700px;
+    height: 100px;
+  }
 
-      .content__text_subtitle {
-        width: 500px;
-        height: 200px;
-      
-        font-weight: 400;
-        font-size: 17px;
-        line-height: 36px;
-      }
+  .content_button {
+    font-size: 20px;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+  }
 
+  .content_text {
+    gap: 100px;
+    margin-left: 50px;
+  }
 
-      .content__text {
-        margin-left: 100px;
-      }
-
-      .content__button__freetrial {
-        width: 200px;
-        min-height: 50px;
-        border-radius: 13px;
-        color: #ffffff;
-        font-family: "Inter";
-        font-size: 125%;
-        font-weight: 600;
-      
-        cursor: pointer;
-      }
-
+  .content_image {
+    height: 500px;
+    width: 360px;
+  }
 }

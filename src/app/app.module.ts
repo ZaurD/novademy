@@ -23,6 +23,7 @@ import { GroupsComponent } from './components/landing/groups/groups.component';
 import { WhyNovademyComponent } from './components/landing/why-novademy/why-novademy.component';
 import { PricesComponent } from './components/landing/prices/prices.component';
 import { FAQComponent } from './components/landing/faq/faq.component';
+import { FooterComponent } from './components/landing/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { FAQComponent } from './components/landing/faq/faq.component';
     GroupsComponent,
     WhyNovademyComponent,
     PricesComponent,
-    FAQComponent
+    FAQComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
