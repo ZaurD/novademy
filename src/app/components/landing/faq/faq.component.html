@@ -1,0 +1,32 @@
+<div class="main">
+    <div class="titleBlock">
+        <p class="title">Suallar və Cavablar</p>
+    </div>
+
+    <div class="FAQ">
+        <div class="questionBlock">
+            <p class="question" (click)="clickAnswer1()" >"novademy" nədir və tələbələrin imtahana hazırlaşmasına necə kömək edir?</p>
+            <p class="answer" *ngIf="answer1">novademy, abituriyentlərə tez, rahat və aşağı büdcəli öz yollarını seçməyə və qəbul üçün hazırlaşmağa imkan verən bir platformadır</p>
+            <hr>
+        </div>
+
+        <div class="questionBlock">
+            <p class="question" (click)="clickAnswer2()">"novademy" hansı imtahanları əhatə edir və hansı fənlər mövcuddur?</p>
+            <p class="answer" *ngIf="answer2">novademy-də buraxılış imtahanında və hər hansı bir qrup üçün qəbul imtahanında tələb olunan bütün fənlər mövcuddur</p>
+            <hr>
+        </div>
+
+        <div class="questionBlock">
+            <p class="question" (click)="clickAnswer3()">"novademy" ödənişlərini necə edə bilərəm və təhlükəsizdirmi?</p> 
+            <p class="answer" *ngIf="answer3">Hal hazırda ödəniş M10 vasitəsilə həyata keçirilir. Yaxın gələcəkdə daha etibarlı və rahat ödəniş üsullarının əlavə <br> edilməsi planlaşdırılır. Amma indi də bütün ödənişləriniz tamamilə təhlükəsizdir</p> 
+            <hr>        
+        </div>
+
+        <div class="questionBlock">
+            <p class="question" (click)="clickAnswer4()">Bir neçə fənn alana endirim varmı?</p>
+            <p class="answer" *ngIf="answer4">Bəli, "Buraxılış paketi" və "Qəbul paketi" paketləri alanlara 13-20 faiz endirim nəzərdə tutulur. <br> Qiymətlərlə bağlı daha ətraflı məlumatı buradan əldə edə bilərsiniz</p>
+            <hr>
+        </div>
+
+    </div>
+</div>
