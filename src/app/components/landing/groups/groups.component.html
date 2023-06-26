@@ -1,10 +1,10 @@
 <div class="main">
     <div class="buttons">
-        <button class="buttons__groupButton" (click)="clickBuraxilish()" [style.background]="buttonGroup1">Buraxılış</button>
-        <button class="buttons__groupButton" (click)="clickFirstGroup()" [style.background]="buttonGroup2">1-ci qrup</button>
-        <button class="buttons__groupButton" (click)="clickSecondGroup()" [style.background]="buttonGroup3">2-ci qrup</button>
-        <button class="buttons__groupButton" (click)="clickThirdGroup()" [style.background]="buttonGroup4">3-cü qrup</button>
-        <button class="buttons__groupButton" (click)="clickFourthGroup()" [style.background]="buttonGroup5">4-cü qrup</button>
+        <button class="buttons__groupButton" (click)="clickBuraxilish()" [style.background]="buttonGroup1" [ngStyle]="{'color': (buttonGroup1 === '#E4005C') ? 'white' : 'black'}">Buraxılış</button>
+        <button class="buttons__groupButton" (click)="clickFirstGroup()" [style.background]="buttonGroup2" [ngStyle]="{'color': (buttonGroup2 === '#E4005C') ? 'white' : 'black'}">1-ci qrup</button>
+        <button class="buttons__groupButton" (click)="clickSecondGroup()" [style.background]="buttonGroup3" [ngStyle]="{'color': (buttonGroup3 === '#E4005C') ? 'white' : 'black'}">2-ci qrup</button>
+        <button class="buttons__groupButton" (click)="clickThirdGroup()" [style.background]="buttonGroup4" [ngStyle]="{'color': (buttonGroup4 === '#E4005C') ? 'white' : 'black'}">3-cü qrup</button>
+        <button class="buttons__groupButton" (click)="clickFourthGroup()" [style.background]="buttonGroup5" [ngStyle]="{'color': (buttonGroup5 === '#E4005C') ? 'white' : 'black'}">4-cü qrup</button>
     </div>
     <div class="groups">
         <div class="groupsBuraxilish" *ngIf="buraxilish">

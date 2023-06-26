@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto+Condensed:wght@300&family=Space+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto+Condensed:wght@300&family=Space+Mono&display=swap");
 
 * {
     margin: 0;
@@ -8,102 +8,142 @@
 }
 
 .main {
-   width: 100%; 
-   display: flex;
-}
-
-.text__block {
     display: flex;
     flex-direction: column;
-    font-family: "Poppins";
 }
 
-.block__text_block {
-    font-family: "Inter";
-    color: white;
+.block {
+    background: #FFF;
+    box-shadow: 0px 12px 64px 0px rgba(204, 204, 204, 0.75);
+    display: flex;
+    flex-direction: row ;
+}
+
+
+.title {
+    font-family: "Poppins";
+    color: #141E32;
+}
+
+.subtitle {
+    font-family: "Poppins";
+    color: #969696;
+}
+
+.blockTitle {
+    color: #000;
+    font-family: "Poppins";
+    font-weight: 700;
+}
+
+.blockSubtitle {
+    color: #969696;
+    font-family: "Poppins";
 }
 
 .blocks {
     display: flex;
-    flex-direction: row;
-    height: 300px;
+    flex-direction: column;
 }
 
-.text_main {
-    white-space: nowrap;
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.text_subtitle {
-    white-space: nowrap;
+.titleBlock {
+    display: flex;
+    flex-direction: column;
 }
 
-.block {
-    border-radius: 13.322px;
-    background: linear-gradient(202deg, rgba(36, 33, 69, 0.20) 0%, rgba(207, 32, 112, 0.20) 100%), linear-gradient(135deg, #CF2070 0%, #242145 100%);
-    box-shadow: 0px 12.938512802124023px 32.346282958984375px 0px #CCC;
-}
 
 @media screen and (min-width: 769px) and (max-width: 1025px) {
 
     .main {
-        margin-top: 100px;
-        gap: 30px;
+        margin-top: 70px;
+        margin-left: 80px;
+        gap: 15px;
     }
 
-    .text__block {
-        margin-top: 50px;
-        margin-left: 20px;
-        gap: 10px;
-    }
-
-    .text_main {
+    .title {
         font-size: 25px;
     }
 
+    .subtitle {
+        font-size: 15px;
+    }
+
+    .titleBlock {
+        gap: 10%;
+    }
+
     .block {
-        height: 180px;
-        width: 180px;
-        margin-right: 20px;
+        height: 120px;
+        width: 85%;
+        border-radius: 20px;
     }
 
-    .block__text_block {
+    .blocks {
+        gap: 30px;
+    }
+
+    .image {
+        height: 120px;
+    }
+
+    .text {
         margin-left: 10px;
-        margin-top: 40px;
-        justify-content: center;
+        margin-top: 20px;
     }
 
-
-
+    .blockTitle {
+        font-size: 20px;
+    }
 
 }
 
 @media screen and (min-width: 1026px) and (max-width: 1280px) {
+
     .main {
-        margin-top: 100px;
-        gap: 50px;
+        margin-top: 70px;
+        margin-left: 80px;
+        gap: 15px;
     }
 
-    .text__block {
-        margin-top: 50px;
-        margin-left: 20px;
-        gap: 10px;
-    }
-
-    .text_main {
+    .title {
         font-size: 30px;
     }
 
-    .block {
-        height: 220px;
-        width: 220px;
-        margin-right: 40px;
+    .subtitle {
+        font-size: 15px;
     }
 
-    .block__text_block {
+    .titleBlock {
+        gap: 10%;
+    }
+
+    .block {
+        height: 120px;
+        width: 85%;
+        border-radius: 20px;
+    }
+
+    .blocks {
+        gap: 30px;
+    }
+
+    .image {
+        height: 120px;
+    }
+
+    .text {
         margin-left: 10px;
-        margin-top: 40px;
-        justify-content: center;
-        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .blockTitle {
+        font-size: 22px;
     }
 
 }
@@ -111,31 +151,49 @@
 @media screen and (min-width: 1281px) and (max-width: 1599px) {
 
     .main {
-        margin-top: 100px;
-        gap: 80px;
+        margin-top: 70px;
+        margin-left: 200px;
+        gap: 20px;
     }
 
-    .text__block {
-        margin-top: 60px;
-        margin-left: 30px;
-        gap: 10px;
+    .title {
+        font-size: 35px;
     }
 
-    .text_main {
-        font-size: 38px;
+    .subtitle {
+        font-size: 15px;
+    }
+
+    .titleBlock {
+        gap: 15%;
     }
 
     .block {
-        height: 240px;
-        width: 240px;
-        margin-right: 65px;
+        height: 130px;
+        width: 85%;
+        border-radius: 20px;
     }
 
-    .block__text_block {
+    .blocks {
+        gap: 30px;
+    }
+
+    .image {
+        height: 130px;
+    }
+
+    .text {
         margin-left: 10px;
-        margin-top: 40px;
-        justify-content: center;
-        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .blockTitle {
+        font-size: 22px;
+    }
+
+    .blockSubtitle {
+        font-size: 15px;
+        width: 500px;
     }
 
 }
@@ -143,35 +201,48 @@
 @media screen and (min-width: 1600px) {
 
     .main {
-        margin-top: 100px;
-        gap: 90px;
+        margin-top: 70px;
+        margin-left: 200px;
+        gap: 40px;
     }
 
-    .text__block {
-        margin-top: 60px;
-        margin-left: 35px;
-        gap: 15px;
+    .title {
+        font-size: 40px;
     }
 
-    .text_main {
-        font-size: 45px;
+    .subtitle {
+        font-size: 20px;
+    }
+
+    .titleBlock {
+        gap: 20%;
     }
 
     .block {
-        height: 260px;
-        width: 260px;
-        margin-right: 75px;
+        height: 120px;
+        width: 85%;
+        border-radius: 20px;
     }
 
-    .block__text_block {
+    .blocks {
+        gap: 30px;
+    }
+
+    .image {
+        height: 120px;
+    }
+
+    .text {
         margin-left: 10px;
-        margin-top: 40px;
-        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .blockTitle {
         font-size: 22px;
     }
 
-    .text_subtitle {
-        font-size: 20px;
+    .blockSubtitle {
+        font-size: 15px;
     }
 
 }
