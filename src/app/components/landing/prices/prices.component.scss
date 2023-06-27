@@ -82,9 +82,314 @@
     justify-content: center;
   }
 
+  @media (max-width: 400px) {
+
+    .main {
+        margin-top: 30px;
+        gap: 30px;
+    }
+
+    .title {
+        font-size: 25px;
+    }
+
+    .blocks {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .block {
+        width: 180px;
+        height: 280px;
+    }
+
+    .price {
+        font-size: 18px;
+    }
+
+    .block_content {
+        margin-top: 10px;
+    }
+
+    .packet_name {
+        font-size: 15px;
+    }
+
+    .savings {
+        width: 45px;
+        height: 20px;
+        font-size: 13px;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .subBlock {
+        width: 100px;
+        height: 20px;
+        font-size: 12px;
+        margin-top: -3%;
+    }
+
+    li {
+        margin-bottom: 5px;
+    }
 
 
-@media screen and (min-width: 769px) and (max-width: 1025px) {
+    .price_button {
+        height: 20px;
+        width: 100px;
+        font-size: 12px;
+        border-radius: 5px;
+    }
+
+    .button1 {
+        margin-top: 60px;
+    }
+
+    .button2 {
+        margin-top: 5px;
+    }
+
+
+    .button3 {
+        margin-top: 60px;
+    }
+  }
+
+  @media (min-width: 401px) and (max-width: 500px) {
+
+    .main {
+        margin-top: 30px;
+        gap: 30px;
+    }
+
+    .title {
+        font-size: 25px;
+    }
+
+    .blocks {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .block {
+        width: 180px;
+        height: 300px;
+    }
+
+    .price {
+        font-size: 20px;
+    }
+
+    .block_content {
+        margin-top: 15px;
+    }
+
+    .packet_name {
+        font-size: 15px;
+    }
+
+    .savings {
+        width: 45px;
+        height: 20px;
+        font-size: 13px;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .subBlock {
+        width: 100px;
+        height: 20px;
+        font-size: 12px;
+        margin-top: -3%;
+    }
+
+    li {
+        margin-bottom: 5px;
+    }
+
+
+    .price_button {
+        height: 20px;
+        width: 100px;
+        font-size: 12px;
+        border-radius: 5px;
+    }
+
+    .button1 {
+        margin-top: 80px;
+    }
+
+    .button2 {
+        margin-top: 10px;
+    }
+
+
+    .button3 {
+        margin-top: 80px;
+    }
+
+
+
+  }
+
+  @media (min-width:501px) and (max-width: 640px) {
+
+    .main {
+        margin-top: 30px;
+        gap: 30px;
+    }
+
+    .title {
+        font-size: 25px;
+    }
+
+    .blocks {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .block {
+        width: 180px;
+        height: 300px;
+    }
+
+    .price {
+        font-size: 20px;
+    }
+
+    .block_content {
+        margin-top: 15px;
+    }
+
+    .packet_name {
+        font-size: 15px;
+    }
+
+    .savings {
+        width: 45px;
+        height: 20px;
+        font-size: 13px;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .subBlock {
+        width: 100px;
+        height: 20px;
+        font-size: 12px;
+        margin-top: -3%;
+    }
+
+    li {
+        margin-bottom: 5px;
+    }
+
+
+    .price_button {
+        height: 20px;
+        width: 100px;
+        font-size: 12px;
+        border-radius: 5px;
+    }
+
+    .button1 {
+        margin-top: 80px;
+    }
+
+    .button2 {
+        margin-top: 10px;
+    }
+
+
+    .button3 {
+        margin-top: 80px;
+    }
+
+  }
+
+  @media (min-width:641px) and (max-width: 800px) {
+
+    .main {
+        margin-top: 40px;
+        gap: 30px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .blocks {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .block {
+        width: 200px;
+        height: 320px;
+    }
+
+    .price {
+        font-size: 25px;
+    }
+
+    .block_content {
+        margin-top: 20px;
+    }
+
+    .packet_name {
+        font-size: 17px;
+    }
+
+    .savings {
+        width: 45px;
+        height: 20px;
+        font-size: 13px;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .subBlock {
+        width: 100px;
+        height: 20px;
+        font-size: 12px;
+        margin-top: -3%;
+    }
+
+    li {
+        margin-bottom: 5px;
+    }
+
+
+    .price_button {
+        height: 30px;
+        width: 120px;
+        font-size: 15px;
+        border-radius: 5px;
+    }
+
+    .button1 {
+        margin-top: 85px;
+    }
+
+    .button2 {
+        margin-top: 15px;
+    }
+
+
+    .button3 {
+        margin-top: 85px;
+    }
+
+  }
+
+
+
+@media screen and (min-width: 801px) and (max-width: 1025px) {
 
     .main {
         margin-top: 50px;
