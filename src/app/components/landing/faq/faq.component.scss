@@ -65,7 +65,177 @@ hr {
     cursor: pointer;
 }
 
-@media screen and (min-width: 769px) and (max-width: 1025px) {
+@media (max-width: 400px) {
+
+    .main {
+        margin-top: 30px;
+    }
+
+    .title {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .FAQ {
+        margin-top: 20px;
+        gap: 20px;
+    }
+
+    .question {
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .answer {
+        font-size: 11px;
+    }
+
+    .questionBlock {
+        margin-bottom: 20px;
+    }
+
+    hr {
+        width: 100%;
+    }
+
+    .icon {
+        height: 20px;
+        width: 20px;
+        margin-left: 5px;
+    }
+
+}
+
+@media (min-width: 401px) and (max-width: 500px) {
+
+    .main {
+        margin-top: 30px;
+    }
+
+    .title {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .FAQ {
+        margin-top: 20px;
+        gap: 20px;
+    }
+
+    .question {
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .answer {
+        font-size: 11px;
+    }
+
+    .questionBlock {
+        margin-bottom: 20px;
+    }
+
+    hr {
+        width: 100%;
+    }
+
+    .icon {
+        height: 20px;
+        width: 20px;
+        margin-left: 10px;
+    }
+
+
+
+}
+
+@media (min-width:501px) and (max-width: 640px) {
+
+    .main {
+        margin-top: 30px;
+    }
+
+    .title {
+        font-size: 22px;
+        margin-top: 20px;
+    }
+
+    .FAQ {
+        margin-top: 20px;
+        gap: 20px;
+    }
+
+    .question {
+        font-size: 15px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .answer {
+        font-size: 13px;
+    }
+
+    .questionBlock {
+        margin-bottom: 20px;
+    }
+
+    hr {
+        width: 100%;
+    }
+
+    .icon {
+        height: 20px;
+        width: 20px;
+        margin-left: 10px;
+    }
+
+}
+
+@media (min-width:641px) and (max-width: 800px) {
+
+    .main {
+        margin-top: 30px;
+    }
+
+    .title {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    .FAQ {
+        margin-top: 20px;
+        gap: 20px;
+    }
+
+    .question {
+        font-size: 17px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .answer {
+        font-size: 15px;
+    }
+
+    .questionBlock {
+        margin-bottom: 20px;
+    }
+
+    hr {
+        width: 100%;
+    }
+
+    .icon {
+        height: 20px;
+        width: 20px;
+        margin-left: 10px;
+    }
+
+}
+
+@media screen and (min-width: 801px) and (max-width: 1025px) {
 
     .main {
         margin-top: 65px;
