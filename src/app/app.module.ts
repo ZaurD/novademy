@@ -24,6 +24,7 @@ import { WhyNovademyComponent } from './components/landing/why-novademy/why-nova
 import { PricesComponent } from './components/landing/prices/prices.component';
 import { FAQComponent } from './components/landing/faq/faq.component';
 import { FooterComponent } from './components/landing/footer/footer.component';
+import { LockedVideoComponent } from './components/locked-video/locked-video.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { FooterComponent } from './components/landing/footer/footer.component';
     WhyNovademyComponent,
     PricesComponent,
     FAQComponent,
-    FooterComponent
+    FooterComponent,
+    LockedVideoComponent
   ],
   imports: [
     BrowserModule,
