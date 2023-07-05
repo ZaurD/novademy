@@ -135,12 +135,12 @@ main {
 
     .groupBlock {
         width: 230px;
-        height: 170px;
+        height: 220px;
     }
 
     .groupBlock__lesson_lessonImg {
         width: 230px;
-        height: 100px;
+        height: 140px;
         border-radius: 10px 10px 0px 0px;
     }
 
@@ -151,14 +151,17 @@ main {
     }
 
     .groupBlock__lesson_lessonName {
-        font-size: 18px;
-        margin-left: 3px;
+        font-size: 20px;
+        margin-left: 7px;
+        margin-top: 5px;
     }
 
     .text {
-        font-size: 16px;
+        font-size: 14px;
         gap: 25px;
-        margin-left: 3px;
+        margin-left: 7px;
+        font-weight: 300;
+        margin-top: 20px;
     }
 }
 
@@ -206,12 +209,12 @@ main {
 
     .groupBlock {
         width: 250px;
-        height: 170px;
+        height: 220px;
     }
 
     .groupBlock__lesson_lessonImg {
         width: 250px;
-        height: 100px;
+        height: 150px;
         border-radius: 10px 10px 0px 0px;
     }
 
@@ -222,14 +225,15 @@ main {
     }
 
     .groupBlock__lesson_lessonName {
-        font-size: 18px;
-        margin-left: 3px;
+        font-size: 20px;
+        margin-left: 7px;
     }
 
     .text {
         font-size: 16px;
         gap: 25px;
-        margin-left: 3px;
+        margin-left: 7px;
+        font-weight: 300;
     }
 
 
@@ -280,12 +284,12 @@ main {
 
     .groupBlock {
         width: 270px;
-        height: 170px;
+        height: 230px;
     }
 
     .groupBlock__lesson_lessonImg {
         width: 270px;
-        height: 100px;
+        height: 150px;
         border-radius: 10px 10px 0px 0px;
     }
 
@@ -296,14 +300,17 @@ main {
     }
 
     .groupBlock__lesson_lessonName {
-        font-size: 18px;
-        margin-left: 3px;
+        font-size: 20px;
+        margin-left: 7px;
+        margin-top: 5px;
     }
 
     .text {
         font-size: 16px;
         gap: 25px;
-        margin-left: 3px;
+        margin-left: 7px;
+        font-weight: 300;
+        margin-top: 20px;
     }
 }
 
@@ -351,12 +358,12 @@ main {
 
     .groupBlock {
         width: 290px;
-        height: 180px;
+        height: 250px;
     }
 
     .groupBlock__lesson_lessonImg {
         width: 290px;
-        height: 100px;
+        height: 170px;
         border-radius: 10px 10px 0px 0px;
     }
 
@@ -367,8 +374,9 @@ main {
     }
 
     .groupBlock__lesson_lessonName {
-        font-size: 20px;
+        font-size: 22px;
         margin-left: 8px;
+        margin-top: 5px;
     }
 
     .text {
@@ -376,6 +384,7 @@ main {
         gap: 25px;
         margin-left: 8px;
         margin-top: 20px;
+        font-weight: 300;
     }
 }
 
@@ -390,7 +399,7 @@ main {
     }
 
     .groupBlock {
-        height: 180px;
+        height: 200px;
         width: 220px;
         margin-right: 40px;
         margin-top: 20px;
@@ -398,14 +407,14 @@ main {
 
     .groupBlock__lesson_lessonImg {
         width: 220px;
-        height: 120px;
+        height: 140px;
         border-radius: 10px;
     }
 
     .groupBlock__lesson_lessonName {
         height: 10px;
         font-size: 17px;
-        margin-left: 5px;
+        margin-left: 10px;
     }
 
     .groupBlock__lesson_video {
@@ -413,14 +422,15 @@ main {
     }
 
     .groupBlock__lesson_teacher {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .text {
         height: 5px;
-        gap: 40px;
-        margin-left: 5px;
+        gap: 20px;
+        margin-left: 10px;
         margin-top: 15px;
+        font-weight: 300;
     }
     
 }
@@ -434,7 +444,7 @@ main {
     }
 
     .groupBlock {
-        height: 160px;
+        height: 200px;
         width: 220px;
         margin-right: 40px;
         margin-top: 20px;
@@ -442,14 +452,14 @@ main {
 
     .groupBlock__lesson_lessonImg {
         width: 220px;
-        height: 100px;
+        height: 140px;
         border-radius: 10px;
     }
 
     .groupBlock__lesson_lessonName {
         height: 10px;
-        font-size: 17px;
-        margin-left: 5px;
+        font-size: 18px;
+        margin-left: 10px;
     }
 
     .groupBlock__lesson_video {
@@ -457,14 +467,15 @@ main {
     }
 
     .groupBlock__lesson_teacher {
-        font-size: 13px;
+        font-size: 12px;
     }
 
     .text {
         height: 5px;
-        gap: 40px;
-        margin-left: 5px;
+        gap: 25px;
+        margin-left: 10px;
         margin-top: 20px;
+        font-weight: 300;
     }
 }
 
@@ -477,7 +488,7 @@ main {
     }
 
     .groupBlock {
-        height: 160px;
+        height: 220px;
         width: 220px;
         margin-right: 40px;
         margin-top: 20px;
@@ -485,28 +496,31 @@ main {
 
     .groupBlock__lesson_lessonImg {
         width: 220px;
-        height: 100px;
+        height: 140px;
         border-radius: 10px;
     }
 
     .groupBlock__lesson_lessonName {
         height: 10px;
-        font-size: 17px;
-        margin-left: 5px;
+        font-size: 18px;
+        margin-left: 10px;
+        margin-top: 10px;
     }
 
     .groupBlock__lesson_video {
-        font-size: 12px;
+        font-size: 13px;
+        font-weight: 300;
     }
 
     .groupBlock__lesson_teacher {
-        font-size: 13px;
+        font-size: 12px;
+        font-weight: 300;
     }
 
     .text {
         height: 5px;
-        gap: 43px;
-        margin-left: 5px;
+        gap: 25px;
+        margin-left: 10px;
         margin-top: 20px;
     }
 }
@@ -520,7 +534,7 @@ main {
     }
 
     .groupBlock {
-        height: 170px;
+        height: 250px;
         width: 250px;
         margin-right: 40px;
         margin-top: 20px;
@@ -528,18 +542,19 @@ main {
 
     .groupBlock__lesson_lessonImg {
         width: 250px;
-        height: 100px;
+        height: 170px;
         border-radius: 10px;
     }
 
     .groupBlock__lesson_lessonName {
         height: 10px;
-        font-size: 19px;
+        font-size: 22px;
         margin-left: 5px;
+        margin-top: 5px;
     }
 
     .groupBlock__lesson_video {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .groupBlock__lesson_teacher {
@@ -548,9 +563,10 @@ main {
 
     .text {
         height: 5px;
-        gap: 43px;
+        gap: 28px;
         margin-left: 5px;
         margin-top: 25px;
+        font-weight: 300;
     }
 }
 
