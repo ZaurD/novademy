@@ -140,6 +140,12 @@
     gap: 35%;
   }
 
+  .content {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }
+
 
 }
 
@@ -258,6 +264,12 @@
 
   .main {
     gap: 35%;
+  }
+
+  .content {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
   }
 
 }
@@ -396,7 +408,7 @@
   .logo {
     width: 150px;
     height: 30px;
-    margin-left: 50px;
+    margin-left: 70px;
   }
 
   .header__button {
@@ -439,6 +451,10 @@
     width: 300px;
     margin-left: 50%;
   }
+
+  .content {
+    margin-left: 20px;
+  }
 }
 
 @media screen and (min-width: 1281px) and (max-width: 1599px) {
@@ -450,7 +466,7 @@
   .logo {
     width: 150px;
     height: 30px;
-    margin-left: 50px;
+    margin-left: 90px;
   }
 
   .header__button {
@@ -490,8 +506,12 @@
 
   .content_image {
     height: 600px;
-    width: 400px;
+    width: 370px;
     margin-left: 50%;
+  }
+
+  .content {
+    margin-left: 40px;
   }
 }
 
